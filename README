@@ -77,7 +77,7 @@ I handled the exception in the program of Log due to the risk of handling IO exc
     * g++ -std=c++14 -o PlayGame Card.cpp SuitCard.cpp Deck.cpp Hand.cpp Bank.cpp Player.cpp Log.cpp Game.cpp PlayGame.cpp
 
   * The development enviroment:
-```
+  ```
                  -/+:.          
                 :++++.          OS: 64bit Mac OS X 10.12.6
                /+++/.           
