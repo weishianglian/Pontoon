@@ -1,0 +1,50 @@
+The source files:
+    Card.h, Card.cpp, SuitCard.h, SuitCard.cpp, Deck.h, Deck.cpp, Hand.h, Hand.cpp, 
+    Bank.h, Bank.cpp, Player.h, Player.cpp, Game.h, Game.cpp, Log.h, Log.cpp, PlayGame.cpp
+
+The executable file:
+    ./PlayGame
+
+How to configure my programs:
+    They can be compiled by typing command "make" at the same folder on the terminal, and the command will use the makefile to configure my programs.
+    There is another way to compile my programs by entering command following:
+        g++ -std=c++14 -o PlayGame Card.cpp SuitCard.cpp Deck.cpp Hand.cpp Bank.cpp Player.cpp Log.cpp Game.cpp PlayGame.cpp
+
+How to run my programs:
+    When the programs are compiled, it has an executable file called "PlayGame" and you can run the program by the following command: "./PlayGame".
+
+The programming environment I used to create and build the program:
+    The editor of C++:
+        Sublime Text 3
+
+    The compiling command:
+        g++ -std=c++14 -o PlayGame Card.cpp SuitCard.cpp Deck.cpp Hand.cpp Bank.cpp Player.cpp Log.cpp Game.cpp PlayGame.cpp
+
+    The development enviroment:
+                 -/+:.          
+                :++++.          OS: 64bit Mac OS X 10.12.6
+               /+++/.           
+       .:-::- .+/:-``.::-       Kernel: x86_64 Darwin 16.7.0
+    .:/++++++/::::/++++++/:`    
+  .:///////////////////////:`   Shell: zsh 5.4.2
+  ////////////////////////`     
+ -+++++++++++++++++++++++`      CPU: Intel Core i5-4278U @ 2.60GHz
+ /++++++++++++++++++++++/       
+ /sssssssssssssssssssssss.      GPU: Intel Iris
+ :ssssssssssssssssssssssss-     
+  osssssssssssssssssssssssso/`  RAM: 8192MiB
+  `syyyyyyyyyyyyyyyyyyyyyyyy+`  
+   `ossssssssssssssssssssss/
+     :ooooooooooooooooooo+.
+      `:+oo+/:-..-:/+o+/-
+
+
+The C++ compiler and version you used:
+    The information by executing the command "g++ --version":
+        Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+        Apple LLVM version 9.0.0 (clang-900.0.39.2)
+        Target: x86_64-apple-darwin16.7.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+
